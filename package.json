@@ -8,10 +8,7 @@
 		"toast",
 		"snackbar"
 	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/kbrgl/svelte-french-toast.git"
-	},
+	"repository": "github:team-poseidon/svelte-french-toast",
 	"license": "MIT",
 	"author": "Kabir Goel",
 	"type": "module",
