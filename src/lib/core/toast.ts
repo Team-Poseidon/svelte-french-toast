@@ -64,7 +64,7 @@ toast.dismiss = (toastId?: string) => {
 toast.remove = (toastId?: string) => remove(toastId);
 
 toast.promise = <T>(
-	promise: Promise<T>,
+	promise: PromiseLike<T>,
 	msgs: {
 		loading: Renderable;
 		success: ValueOrFunction<Renderable, T>;
